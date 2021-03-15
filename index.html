@@ -7,7 +7,7 @@
         <title>The Ghana Naming Culture</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
-        <link rel="stylesheet"href="css/styles.css">
+        <link href="./css/style.css" rel="stylesheet" type="text/css">
     </head> 
     <body>
         <div class="container">
@@ -41,10 +41,35 @@
                         </div>
                     </div>
                     <div class="col-md-6 right">
-                       <h3>Find your Akan name</h3>
+                       <h3>Search for Akan name here</h3>
                         <div class="panel col-md-6 offset-sm-12">
                            <form name="akannames" onsubmit="return false">
                            <div class="form-group top-form">
                                <label for="date" class="labels">Date of Birth</label>
                                <input type="date" class="form-control" id="date" name="date">                     
-                          </div>  
+                          </div> 
+                          <br>
+                          <div class="errormsg" id="dateerror"></div>
+                          <br>
+                           <input type="radio" class="genders labels" value="male" id="rad1" name="gender" >Male
+                           <input type="radio" class="genders labels" value="female" id="rad1" name="gender" >Female
+                           <br>
+                           <div class="errormsg" id="gendererror"></div>
+                           <br>
+                           <input type="submit" name="submit" class="btn btn-primary mb-2" onclick="validate()" value="Generate">
+                           <input type="reset" name="reset" class="btn btn-primary mb-2" onclick="refresh(); return false;" value="Refresh">
+                       </form>   
+                       <br>    
+                            <div>
+                                <p id="result"></p>
+                            </div>    
+                       </div>
+                   </div>   
+                </div>
+             </div>
+           </div>
+        </body>
+        </html>
+        <script src="script.js"></script>
+        
+        
