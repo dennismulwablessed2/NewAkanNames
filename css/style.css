@@ -1,5 +1,9 @@
 body{
-    background-image: url( ../akan/images/bidaaslide3.jpg);
+    background-image: url( ../akan/images/02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.jumbotron{
+    font-weight: bold;
+    color: blanchedalmond;
 }
