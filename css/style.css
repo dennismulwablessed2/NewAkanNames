@@ -1,3 +1,5 @@
 body{
-    background-image: url();
+    background-image: url( ../akan/images/bidaaslide3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
