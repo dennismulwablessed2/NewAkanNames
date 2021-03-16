@@ -5,12 +5,38 @@ body{
 }
 .jumbotron{
     font-weight: 200;
-    color: blanchedalmond;
+    color: rgb(0, 32, 177);
 }
 h1{
     text-align: center;
-    color: rgb(226, 162, 43);
+    color: rgb(76, 43, 226);
 }
 .form-group{
     float: center;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    padding: 2px;
+    background-color: rgb(201, 196, 190);
+}
+p {
+    color: blue;
+    padding: 2px;
+    background-color: rgb(222, 135, 218);
+}
+h2{
+    color: blue;
+    padding: 2px;
+    background-color: rgb(184, 222, 135);
+}
+h3 {
+    color: rgb(41, 48, 40);
+}
+.errormsg{
+    color: red;
+}
+.container {
+    background-color: slategrey;
+    padding: 5px;
 }
