@@ -11,3 +11,4 @@ function validate(){
     var valid = false; 
     var dateerror = document.getElementById('dateerror');
     var gendererror = document.getElementById('gendererror');
+    var result = document.getElementById('result');
