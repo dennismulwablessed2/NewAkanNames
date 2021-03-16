@@ -4,10 +4,13 @@ body{
     background-size: cover;
 }
 .jumbotron{
-    font-weight: bold;
+    font-weight: 200;
     color: blanchedalmond;
 }
 h1{
     text-align: center;
-    color: blueviolet;
+    color: rgb(226, 162, 43);
+}
+.form-group{
+    float: center;
 }
