@@ -12,3 +12,14 @@ function validate(){
     var dateerror = document.getElementById('dateerror');
     var gendererror = document.getElementById('gendererror');
     var result = document.getElementById('result');
+    if(document.getElementById("date").value == ""){
+        dateerror.innerHTML = "Please enter a valid date ";
+        return false;
+    }else{
+        
+        for(var i = 0;i<gender.length;i++){
+            if(gender[i].checked){
+                valid = true;
+                break;
+            }
+        }
