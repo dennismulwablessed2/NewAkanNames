@@ -16,10 +16,23 @@ function validate(){
         dateerror.innerHTML = "Please enter a valid date ";
         return false;
     }else{
-        
+
         for(var i = 0;i<gender.length;i++){
             if(gender[i].checked){
                 valid = true;
                 break;
             }
         }
+    }
+    if(valid){
+        if(gender[i].value == "male"){
+            result.innerHTML = "You were born on a "+day+".<br>"+"Your Akan Name is " + mName[dateday]; 
+        }else{
+        if(gender[i].value == "female"){
+            result.innerHTML = "You were born on a "+day+".<br>"+"Your Akan Name is " + fName[dateday]; 
+        }
+        }
+    }else{
+        gendererror.innerHTML = "Please select gender";
+        return false;
+    }    
