@@ -1,6 +1,12 @@
 function validate(){
 
-    //getting date input from the form
     var date = document.getElementById("date");
     //var mydate = document.forms["akanform"]["mydate"];
     var gender = document.akannames.gender;
+    var date = new Date(document.getElementById("date").value);
+    var dateday = date.getDay();
+    var weekdays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    var day = weekdays[dateday];
+    var mName =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+    var fName = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+    var valid = false; 
