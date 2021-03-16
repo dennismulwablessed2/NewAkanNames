@@ -1,9 +1,13 @@
 body{
-    background-image: url( ../akan/images/02.jpg);
+    background-image: url( ../akan/images/ghana2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .jumbotron{
     font-weight: bold;
     color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
 }
