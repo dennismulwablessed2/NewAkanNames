@@ -35,4 +35,15 @@ function validate(){
     }else{
         gendererror.innerHTML = "Please select gender";
         return false;
-    }    
+    }  
+}
+function refresh(){
+document.getElementById('dateerror').innerHTML = "";
+document.getElementById('gendererror').innerHTML = "";
+document.getElementById('result').innerHTML = "";
+date.value = "";
+var ele = document.getElementsByName("gender");
+
+for(var j=0;j<gender.length;j++)
+   gender[j].checked = false;
+} 
